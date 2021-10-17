@@ -1,0 +1,10 @@
+
+Git Basics:
+
+
+
+Branch:
+    git branch -> Displays branch
+    git switch -c <branch name> -> create and enter branch
+
+
