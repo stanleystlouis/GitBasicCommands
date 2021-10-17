@@ -1,10 +1,26 @@
 
 Git Basics:
+mkdir <directory-name>              -> Make directory, folder.
+cd <directory-name>                 -> change directory 
+git init                            -> Initialize directory
+touch <filename>                    -> Create file
+ls                                  -> list file or directory
+git status                          -> get files status
+git add <filename>                  -> add file to staging area
+git add .                           -> add all files to the staging area
+git commit                          -> commit file with editor
+git commit -m "<description>"       -> commit from the command line
 
 
 
 Branch:
-    git branch -> Displays branch
-    git switch -c <branch name> -> create and enter branch
+    git branch                      -> Displays branch
+    git branch <branch-Name>        -> create new branch
+    git switch -c <branch-name>     -> create and enter branch
+    git switch <branch-name>        -> switch between branches
+    git checkout <branch-name>      -> switch between branches
+    git branch -d <branch-name>     -> delete a branch
+
+
 
 
