@@ -10,7 +10,8 @@ Git Basics:
     git add .                           -> add all files to the staging area
     git commit                          -> commit file with editor
     git commit -m "<description>"       -> commit from the command line
-
+    git log                             -> view log of all commits
+    git log --oneline                   -> view in one line
 
 
 Branch:
@@ -26,6 +27,11 @@ Merge:
 
 Diff: 
     git diff
+
+Push:
+git push origin <branch-name>
+git push origin <local>:<destination>
+git push -u origin <branch-name>
 
 
 
