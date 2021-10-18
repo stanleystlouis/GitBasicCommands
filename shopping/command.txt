@@ -10,12 +10,14 @@ Git Basics:
     git add .                           -> add all files to the staging area
     git commit                          -> commit file with editor
     git commit -m "<description>"       -> commit from the command line
+    git commit --amend                  -> amending a commit
     git log                             -> view log of all commits
     git log --oneline                   -> view in one line
 
 
 Branch:
     git branch                      -> Displays branch
+    git branch -r 
     git branch <branch-Name>        -> create new branch
     git switch -c <branch-name>     -> create and enter branch
     git switch <branch-name>        -> switch between branches
@@ -32,6 +34,11 @@ Push:
 git push origin <branch-name>
 git push origin <local>:<destination>
 git push -u origin <branch-name>
+
+Fetch: 
+git file <remote>
+git Fetch <remote> <branch-name>
+
 
 
 
