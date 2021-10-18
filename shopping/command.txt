@@ -8,6 +8,9 @@ Git Basics:
     git status                          -> get files status
     git add <filename>                  -> add file to staging area
     git add .                           -> add all files to the staging area
+    
+    
+Commit:  
     git commit                          -> commit file with editor
     git commit -m "<description>"       -> commit from the command line
     git commit --amend                  -> amending a commit
@@ -24,20 +27,28 @@ Branch:
     git checkout <branch-name>      -> switch between branches
     git branch -d <branch-name>     -> delete a branch
 
+
 Merge: 
     git merge <branch-name>         -> merging different branches
+
 
 Diff: 
     git diff
 
+
 Push:
-git push origin <branch-name>
-git push origin <local>:<destination>
-git push -u origin <branch-name>
+    git push origin <branch-name>
+    git push origin <local>:<destination>
+    git push -u origin <branch-name>
+
 
 Fetch: 
-git file <remote>
-git Fetch <remote> <branch-name>
+    git Fetch <remote>
+    git Fetch <remote> <branch-name>
+
+Pull:
+    git pull <remote>
+    git pull <remote> <branch-name>
 
 
 
