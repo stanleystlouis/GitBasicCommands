@@ -35,6 +35,36 @@ Merge:
 Diff: 
     git diff
 
+Git stash:
+    git stash                            -> save changes that conflict when switching branch
+    git stash save
+    git stash pop                        -> revert to stash saved
+    git stash apply                      -> can pop to multiple branches
+    git stash apply <stash number>
+    git stash list                       -> list stash
+    git stash clear                      -> clear stash 
+    git stash drop <stash number>        -> clear specific stash 
+
+git checkout:
+    git checkout branch
+    git checkout <commit hash>           ->revert back to a specific commit
+    git checkout Head~<pastcommit #(1)>  -> ''
+    git switch -                        -> revert to previous location after
+    git checkout HEAD <filename>        -> discard changes up until the last commit of that file
+    git checkout --<filename>           -> ''
+
+Restore:
+    <commit #>  -> number of past commit, ex: 2 ago
+    git restore <filename>                             -> delete uncommit changes in that file
+    git restore --source HEAD~<commit #> <filename>    -> restore up to that commit 
+    git restore --staged <filename>                    -> unstage file 
+
+Reset:
+    git reset <commit hash>                            -> reset to a particular commit but kept changes
+    git reset --hard <commit hash>                     -> delete commits and changes up until that commit
+    
+Revert:
+    git revert <commit hash>                           -> change the commit but 
 
 Push:
     git push origin <branch-name>
@@ -53,5 +83,12 @@ Pull:
 
 
 
+
+github
+
+git gist: 
+    markdown
+
+hosting pages:
 
 
