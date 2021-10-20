@@ -84,11 +84,11 @@ Pull:
 
 
 
-github
+github:
+    Git gist 
+    Hosting pages
+    Pull request
+    Forking
 
-git gist: 
-    markdown
-
-hosting pages:
 
 
