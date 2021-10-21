@@ -1,3 +1,7 @@
+Git Document Webpage:
+
+https://git-scm.com/doc
+
 
 Git Basics:
     mkdir <directory-name>              -> Make directory, folder.
@@ -19,17 +23,17 @@ Commit:
 
 
 Branch:
-    git branch                      -> Displays branch
+    git branch                          -> Displays branch
     git branch -r 
-    git branch <branch-Name>        -> create new branch
-    git switch -c <branch-name>     -> create and enter branch
-    git switch <branch-name>        -> switch between branches
-    git checkout <branch-name>      -> switch between branches
-    git branch -d <branch-name>     -> delete a branch
+    git branch <branch-Name>            -> create new branch
+    git switch -c <branch-name>         -> create and enter branch
+    git switch <branch-name>            -> switch between branches
+    git checkout <branch-name>          -> switch between branches
+    git branch -d <branch-name>         -> delete a branch
 
 
 Merge: 
-    git merge <branch-name>         -> merging different branches
+    git merge <branch-name>             -> merging different branches
 
 
 Diff: 
@@ -49,19 +53,19 @@ git checkout:
     git checkout branch
     git checkout <commit hash>           ->revert back to a specific commit
     git checkout Head~<pastcommit #(1)>  -> ''
-    git switch -                        -> revert to previous location after
-    git checkout HEAD <filename>        -> discard changes up until the last commit of that file
-    git checkout --<filename>           -> ''
+    git switch -                         -> revert to previous location after
+    git checkout HEAD <filename>          -> discard changes up until the last commit of that file
+    git checkout --<filename>            -> ''
 
 Restore:
-    <commit #>  -> number of past commit, ex: 2 ago
+    <commit #>  -> number of past commit, ex: 2 
     git restore <filename>                             -> delete uncommit changes in that file
     git restore --source HEAD~<commit #> <filename>    -> restore up to that commit 
     git restore --staged <filename>                    -> unstage file 
 
 Reset:
-    git reset <commit hash>                            -> reset to a particular commit but kept changes
-    git reset --hard <commit hash>                     -> delete commits and changes up until that commit
+    git reset <commit hash>                            -> reset to a particular commit but kept file changes
+    git reset --hard <commit hash>                     -> delete commits and file changes up until that commit
     
 Revert:
     git revert <commit hash>                           -> change the commit but 
@@ -71,24 +75,19 @@ Push:
     git push origin <local>:<destination>
     git push -u origin <branch-name>
 
-
 Fetch: 
-    git Fetch <remote>
-    git Fetch <remote> <branch-name>
+    git Fetch <remote>                                  -> get latest changes to local repo without integration with existing code
+    git Fetch <remote> <branch-name>                    -> ''
 
 Pull:
-    git pull <remote>
-    git pull <remote> <branch-name>
-
-
-
-
+    git pull <remote>                                   -> get latest changes to local repo and integrate with existing code
+    git pull <remote> <branch-name>                     -> ''
 
 github:
-    Git gist 
-    Hosting pages
-    Pull request
-    Forking
+    Git gist                                            -> host snipet of code
+    Hosting pages                                       -> host pages Github
+    Pull request                                        -> request merge access
+    Forking                                             -> copy someone repo to you directory
 
 
 
